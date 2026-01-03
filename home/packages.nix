@@ -13,6 +13,5 @@
         synergy             # sharing keyboard
         tldr                # short version of man        
         bat                 # better cat   
-
-  ];
+        ];
 }
