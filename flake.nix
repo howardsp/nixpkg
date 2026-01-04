@@ -3,18 +3,18 @@
 
   inputs = {
     # Pin nixpkgs for reproducibility (pick a stable channel)
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-24.11";
+      url = "github:nix-community/home-manager/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
   outputs = { self, nixpkgs, home-manager, ... }:
     let
-      system = "x86_64-linux"; # change to aarch64-linux if on ARM
-      username = "howardsp";  # <-- change
+      system = "x86_64-linux"; 
+      username = "howardsp"; 
       homeDir = "/home/${username}";
     in
     {
