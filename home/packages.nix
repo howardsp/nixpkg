@@ -57,9 +57,9 @@
         insync
         syncthing
         flameshot
-        libreoffice-fresh
-        onlyoffice-bin
-        inkscape 
+        #libreoffice-fresh
+        onlyoffice-desktopeditors
+        #inkscape 
         vlc
         gimp
         pinta
