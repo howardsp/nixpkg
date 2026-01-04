@@ -28,7 +28,7 @@
         zsh-powerlevel10k   # zsh prompt tweaking
         tldr                # short version of man        
         bat                 # better cat   
-        duf du-dust         # replacements for du and df
+        duf dust            # replacements for du and df
         fd                  # fdfind is an enhanced find
         choose              # (the basics of awk/cut)
         direnv              # load environment variables depending on the current directory
