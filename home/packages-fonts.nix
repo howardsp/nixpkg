@@ -81,7 +81,7 @@
         fira-mono # Mozilla's typeface for Firefox OS
         hack-font # A typeface designed for source code
         corefonts  # Microsoft free fonts
-        ubuntu_font_family
+        ubuntu-classic
         roboto # Android
         emacs-all-the-icons-fonts
         cascadia-code
