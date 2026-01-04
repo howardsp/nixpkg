@@ -41,7 +41,7 @@
       menu-button-appearance = "Icon";
       activate-on-hover = true;
       menu-hotkey-type = "Custom";
-      #menu-hotkey = "<Super>Escape";
+      menu-hotkey = "<Control>Escape";
       menu-height = 575;
       enable-standlone-runner-menu = true;
       #runner-menu-custom-hotkey = "<Super>";
