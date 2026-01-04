@@ -1,13 +1,18 @@
 { config, pkgs, ... }:
 
 {
-  home.stateVersion = "24.11";
+  nix.extraOptions = ''experimental-features = nix-command flakes'';
+
+  home.stateVersion = "25.11";
 
   # Make nix feel like your "primary" package manager:
   # - install tools via home.packages
   # - manage dotfiles + shells here
   imports = [
     ./packages.nix
+    ./packages-gnome.nix
+    ./packages-fonts.nix
+    ./gnome-settings
     #./git.nix
     #./zsh.nix
   ];
