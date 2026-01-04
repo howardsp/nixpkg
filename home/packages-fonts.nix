@@ -75,7 +75,7 @@
         carlito   # similar to microsoft Calibri
         noto-fonts
         noto-fonts-cjk-sans # Chinese, Japanese, Korean
-        noto-fonts-emoji
+        noto-fonts-color-emoji
         noto-fonts-extra
         fira-code # Monospace font with programming ligatures
         fira-code-symbols
