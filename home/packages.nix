@@ -52,8 +52,7 @@
         neovim  
         htop         
         fastfetch 
-
-        stacer 
+        
         xfce.thunar 
         insync
         syncthing
