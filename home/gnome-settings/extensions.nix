@@ -34,16 +34,17 @@
      #arc-menu settings
     "org/gnome/shell/extensions/arcmenu" = {
       menu-button-icon = "Distro_Icon";
+      arcmenu-hotkey = "<Control>Escape";
       distro-icon = 0;
       menu-button-postion-offset = 2; 
       menu-layout = "Whisker";
       menu-button-appearance = "Icon";
       activate-on-hover = true;
       menu-hotkey-type = "Custom";
-      menu-hotkey = "<Super>Escape";
+      #menu-hotkey = "<Super>Escape";
       menu-height = 575;
       enable-standlone-runner-menu = true;
-      runner-menu-custom-hotkey = "<Super>";
+      #runner-menu-custom-hotkey = "<Super>";
       search-provider-open-windows = true;     
 
       menu-border-color = "rgb(63,62,64)";
