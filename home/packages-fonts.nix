@@ -87,7 +87,5 @@
         cascadia-code
         mplus-outline-fonts.githubRelease
         open-sans
-        dina-font
-        proggyfonts
   ];
 }
