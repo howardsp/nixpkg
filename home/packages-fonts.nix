@@ -75,8 +75,7 @@
         carlito   # similar to microsoft Calibri
         noto-fonts
         noto-fonts-cjk-sans # Chinese, Japanese, Korean
-        noto-fonts-color-emoji
-        noto-fonts-extra
+        noto-fonts-color-emoji        
         fira-code # Monospace font with programming ligatures
         fira-code-symbols
         fira-mono # Mozilla's typeface for Firefox OS
