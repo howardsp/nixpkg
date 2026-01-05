@@ -1,14 +1,10 @@
 {
   description = "Reproducible Nix-as-primary setup for Linux Packages with Home Manager";
 
-  inputs = {
-    # Pin nixpkgs for reproducibility (pick a stable channel)
+  inputs = {  
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
-
-    home-manager = {
-      url = "github:nix-community/home-manager/release-25.11";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    home-manager.url = "github:nix-community/home-manager/release-25.11";
+    home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = { self, nixpkgs, home-manager, ... }:

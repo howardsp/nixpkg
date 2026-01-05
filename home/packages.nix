@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, nixpkgs-unstable, ... }:
 
 {
 
@@ -13,6 +13,16 @@
         streetsidesoftware.code-spell-checker
         ];
     };  
+
+    xdg.desktopEntries.gmail-app = {
+        name = "GMail";        
+        exec = "${pkgs.chromium}/bin/chromium --app=https://discord.com/app";
+        icon = "https://www.gstatic.com/marketing-cms/assets/images/66/ac/14b165e647fd85c824bfbe5d6bc5/gmail.webp=s96-fcrop64=1,00000000ffffffff-rw"; 
+        comment = "Launch GMail in its own window";
+        terminal = false;
+        type = "Application";    
+        categories = [ "Chrome Apps" ];
+    };
 
     home.packages = with pkgs; [
           
@@ -57,9 +67,11 @@
         insync
         syncthing
         flameshot
+        
         #libreoffice-fresh
-        onlyoffice-desktopeditors
         #inkscape 
+        onlyoffice-desktopeditors
+        
         vlc
         gimp
         pinta
@@ -70,5 +82,15 @@
 
         cameractrls 
         cameractrls-gtk4
+
+        # X
+        xorg.xrandr
+        xorg.xkill
+        xdotool
+        xclip
+
+        # Wayland
+        ydotool 
+        wl-clipboard
   ];
 }
