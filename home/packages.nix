@@ -16,12 +16,12 @@
 
     xdg.desktopEntries.gmail-app = {
         name = "GMail";        
-        exec = "${pkgs.chromium}/bin/chromium --app=https://discord.com/app";
+        exec = "${pkgs.chromium}/bin/chromium --app=https://gmail.com/";
         icon = "gmail"; 
         comment = "Launch GMail in its own window";
         terminal = false;
         type = "Application";    
-        #categories = [ "Internet" ];
+        categories = ["WebBrowser"];
     };
 
     home.packages = with pkgs; [
