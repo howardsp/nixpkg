@@ -21,7 +21,7 @@
         comment = "Launch GMail in its own window";
         terminal = false;
         type = "Application";    
-        categories = [ "Internet" ];
+        #categories = [ "Internet" ];
     };
 
     home.packages = with pkgs; [
