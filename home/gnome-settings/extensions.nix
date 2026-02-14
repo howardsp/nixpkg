@@ -42,7 +42,7 @@
       activate-on-hover = true;
       menu-hotkey-type = "Custom";
       menu-hotkey = "<Control>Escape";
-      menu-height = 575;
+      menu-height = 600;
       enable-standlone-runner-menu = true;
       #runner-menu-custom-hotkey = "<Super>";
       search-provider-open-windows = true;     
